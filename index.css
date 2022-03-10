@@ -1,0 +1,58 @@
+:root {
+    font-size: 125%;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    margin: 1rem;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Mobile */
+@media
+(max-device-width: 480px) {
+    :root {
+        font-size: 85%;
+    }
+
+}
+
+/* Tablet */
+@media
+(min-device-width: 481px) and 
+(max-device-width: 768px) {
+    :root {
+        font-size: 95%;
+    }
+
+}
+
+/* Smaller screens */
+@media
+(min-device-width: 769px) and 
+(max-device-width: 1024px) {
+    :root {
+        font-size: 100%;
+    }
+
+}
+
+/* Larger screens */
+@media
+(min-device-width: 1025px) {
+
+    :root {
+        font-size: 110%;
+    }
+}
