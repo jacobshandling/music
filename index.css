@@ -24,10 +24,6 @@ hr {
     width: 80%;
 }
 
-.testimonial {
-    font-style: italic;
-    margin: auto;
-}
 
 figure {
     display: flex;
@@ -35,6 +31,14 @@ figure {
     align-items: center;
 }
 
+.testimonial {
+    font-style: italic;
+    margin: auto;
+}
+
+figcaption {
+    font-size: 1.4rem;
+}
 /* Mobile */
 @media
 (max-device-width: 480px) {
