@@ -4,24 +4,30 @@
 
 html, body {
     height: 100%;
+    width: 100%;
     font-family: "Gill Sans", sans-serif;
 }
-body {
-    margin: 1rem;
-    padding: auto;
+
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
 p {
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
+
 hr {
-    width: 80%;
+    width: 33%;
 }
 
 
@@ -29,15 +35,22 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap:0.8rem;
+}
+
+blockquote {
+    margin: auto;
 }
 
 .testimonial {
+    font-size: 1.4rem;
     font-style: italic;
     margin: auto;
 }
 
 figcaption {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 /* Mobile */
 @media
