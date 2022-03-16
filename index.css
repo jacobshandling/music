@@ -1,24 +1,38 @@
-:root {
-    font-size: 125%;
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
+:root {
+    font-size: 100%; 
+}
+
+html {
     font-family: "Gill Sans", sans-serif;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 main {
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 section {
+    padding: 1.4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
+    gap: 1.2rem;
+    /* margin: auto; */
 }
 p {
     font-size: 1.2rem;
@@ -52,40 +66,48 @@ blockquote {
 figcaption {
     font-size: 1.2rem;
 }
-/* Mobile */
+
+.flyer {
+    height: 28rem;
+    width: auto;
+}
+
+
+
+/* mobile */
 @media
-(max-device-width: 480px) {
+(max-width: 480px) {
     :root {
-        font-size: 85%;
+        font-size: 75%;
     }
 
 }
 
-/* Tablet */
+/* tablet */
 @media
-(min-device-width: 481px) and 
-(max-device-width: 768px) {
+(min-width: 481px) and 
+(max-width: 768px) {
     :root {
-        font-size: 95%;
+        font-size: 90%;
     }
 
 }
 
-/* Smaller screens */
+/* smaller screens */
 @media
-(min-device-width: 769px) and 
-(max-device-width: 1024px) {
+(min-width: 769px) and 
+(max-width: 1024px) {
     :root {
-        font-size: 100%;
+        font-size: 105%;
     }
 
 }
 
-/* Larger screens */
+/* larger screens */
 @media
-(min-device-width: 1025px) {
+(min-width: 1025px) {
 
     :root {
-        font-size: 110%;
+        font-size: 120%;
     }
 }
