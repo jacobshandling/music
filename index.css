@@ -75,6 +75,11 @@ figcaption {
     width: auto;
 }
 
+#mc_embed_signup_scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 /* mobile */
