@@ -5,6 +5,8 @@
 }
 
 :root {
+    --border: 0.03rem solid #474a4d;
+
     font-size: 100%; 
 }
 
@@ -27,6 +29,7 @@ main {
 }
 
 section {
+    border-bottom: var(--border);
     padding: 1.4rem;
     display: flex;
     flex-direction: column;
