@@ -36,12 +36,15 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 1.2rem;
 }
 
 p {
     font-size: 1.2rem;
+    text-align: center;
+}
+
+.performance {
     text-align: center;
 }
 
