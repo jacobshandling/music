@@ -22,7 +22,6 @@ body {
     justify-content: center;
 }
 
-
 main {
     display: flex;
     flex-direction: column;
@@ -42,6 +41,23 @@ section {
 p {
     font-size: 1.2rem;
     text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#welcome {
+    display: flex;
+}
+#portrait {
+    width: auto;
+    height: 600px;
+    border-radius: .5rem;
+}
+
+#bio {
+    max-width: 50%;
 }
 
 .performance {
