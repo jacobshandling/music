@@ -99,13 +99,11 @@ blockquote {
 }
 
 .testimonial {
-    font-size: 1.4rem;
-    font-style: italic;
+    font-size: 1.2rem;
     margin: auto;
 }
 
 figcaption {
-    font-size: 1.2rem;
     font-style: italic;
 }
 
