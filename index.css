@@ -1,14 +1,14 @@
 * { 
     margin: 0;
     padding: 0;
-    height: auto;
-    width: auto;
+    width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
 }
 
 :root {
     --border: 0.03rem solid #474a4d;
-    font-size: 100%; 
+    font-size: 20px; 
 }
 
 html {
@@ -20,6 +20,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 1rem;
+}
+
+body * {
+    text-align: center;
 }
 
 main {
@@ -29,9 +34,10 @@ main {
 }
 
 section {
-    max-width: 66%;
+    width: 100%;
+    max-width: 800px;
     border-bottom: var(--border);
-    padding: 1.4rem;
+    padding: 1.4rem 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,38 +51,35 @@ p {
 
 h1 {
     font-size: 2rem;
+    text-align: center;
 }
 
 #welcome {
-    display: flex;
+    overflow: hidden;
 }
+
 #portrait {
+    max-width: 600px;
     width: auto;
-    height: 600px;
+    height: auto;
     border-radius: .5rem;
 }
 
-#bio {
-    max-width: 50%;
+figure, figure * {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
 }
 
 .performance {
     text-align: center;
 }
 
-.media {
-    width: 20rem;
-}
-
-
 iframe {
-    width: 100%;
+    width: 85%;
 }
-
-.caption {
-    font-size: .8rem;
-}
-
 
 hr {
     width: 33%;
@@ -103,6 +106,7 @@ blockquote {
 
 figcaption {
     font-size: 1.2rem;
+    font-style: italic;
 }
 
 .flyer {
@@ -110,47 +114,12 @@ figcaption {
     width: auto;
 }
 
-#mc_embed_signup_scroll {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+footer {
+    padding-top: 1rem;
 }
 
-
-/* mobile */
-@media
-(max-width: 480px) {
-    :root {
-        font-size: 16px;
-    }
-
-}
-
-/* tablet */
-@media
-(min-width: 481px) and 
-(max-width: 768px) {
-    :root {
-        font-size: 18px;
-    }
-
-}
-
-/* smaller screens */
-@media
-(min-width: 769px) and 
-(max-width: 1024px) {
-    :root {
-        font-size: 20px;
-    }
-
-}
-
-/* larger screens */
-@media
-(min-width: 1025px) {
-
-    :root {
-        font-size: 22px;
+@media (max-width: 921px) {
+    section {
+        padding: 1.4rem 0;
     }
 }
