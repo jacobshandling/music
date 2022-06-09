@@ -37,7 +37,7 @@ section {
     width: 100%;
     max-width: 800px;
     border-bottom: var(--border);
-    padding: 1.4rem 4rem;
+    padding: 1.4rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,7 +59,7 @@ h1 {
 }
 
 #portrait {
-    max-width: 600px;
+    max-width: 720px;
     width: auto;
     height: auto;
     border-radius: .5rem;
