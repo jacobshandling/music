@@ -8,7 +8,7 @@
 
 :root {
     --border: 0.03rem solid #474a4d;
-    font-size: 20px; 
+    font-size: 22px; 
 }
 
 html {
@@ -44,25 +44,35 @@ section {
     gap: 1.2rem;
 }
 
-p {
-    font-size: 1.2rem;
-    text-align: center;
-}
-
 h1 {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     text-align: center;
 }
 
-#welcome {
-    overflow: hidden;
+h2 {
+    /* font-size: 1.8rem; */
+}
+
+h3 {
+    /* font-size: 1.6rem; */
+}
+
+p {
+    /* font-size: 1.2rem; */
+    text-align: center;
+}
+
+button {
+    height: 2rem;
+    width: 6rem;
+    font-size: 1rem;
 }
 
 #portrait {
     max-width: 720px;
     width: auto;
     height: auto;
-    border-radius: .5rem;
+    border-radius: .25rem;
 }
 
 figure, figure * {
@@ -99,7 +109,7 @@ blockquote {
 }
 
 .testimonial {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     margin: auto;
 }
 
@@ -114,6 +124,7 @@ figcaption {
 
 footer {
     padding-top: 1rem;
+    /* font-size: .9rem; */
 }
 
 @media (max-width: 921px) {
