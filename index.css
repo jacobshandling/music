@@ -45,21 +45,12 @@ section {
 }
 
 h1 {
-    /* font-size: 2rem; */
     text-align: center;
-}
-
-h2 {
-    /* font-size: 1.8rem; */
-}
-
-h3 {
-    /* font-size: 1.6rem; */
 }
 
 p {
-    /* font-size: 1.2rem; */
     text-align: center;
+    font-size: 1.2rem;
 }
 
 button {
@@ -81,10 +72,21 @@ figure, figure * {
 
 figcaption {
     text-align: center;
+    font-style: italic;
+}
+
+.caption {
+    font-size: 1rem;
 }
 
 .performance {
     text-align: center;
+}
+
+.performance button {
+    height: 1.4rem;
+    width: 4.2rem;
+
 }
 
 iframe {
@@ -112,9 +114,6 @@ blockquote {
     margin: auto;
 }
 
-figcaption {
-    font-style: italic;
-}
 
 .flyer {
     height: 22rem;
@@ -123,7 +122,6 @@ figcaption {
 
 footer {
     padding-top: 1rem;
-    /* font-size: .9rem; */
 }
 
 @media (max-width: 921px) {
