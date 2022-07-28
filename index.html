@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
     <head>
-        <!-- Hey code sleuth! Thanks for looking under the hood.
-            Shoot me an email and let's collaborate – jacobshandling@pm.me -->
+
+        <!-- Hey code sleuth, thanks for looking under the hood.
+            I'm also a web developer, let's collaborate! dev.jakeshandling.com -->
 
         <title>Jake Shandling</title>
         <meta charset="utf-8">
@@ -27,7 +28,7 @@
         
     </head>
     <body id="page-top">
-        <div class="container-xl">
+        <div class="container-xl text-center">
             <nav class="navbar navbar-expand-md bg-light sticky-top justify-content-between py-md-0 px-md-5">
                     <a class="navbar-brand" href="#"><h1>Jake Shandling</h1></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,17 +36,17 @@
                     </button>
                     <div id="nav-links" class="collapse navbar-collapse">
                         <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                            <li class="nav-item"><a class="nav-link active" href="#media-section">Listen</a></li>
-                            <li class="nav-item"><a class="nav-link active" href="#bio">Bio</a></li>
-                            <li class="nav-item"><a class="nav-link active" href="#performances">Live</a></li>
-                            <li class="nav-item"><a class="nav-link active" href="#contact">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link active" href="#blog">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#listen-anchor">Listen</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#bio-anchor">Bio</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#live-anchor">Live</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="mailto:shandlingsounds@icloud.com">Contact</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link active" href="#blog-anchor">Blog</a></li> -->
                         </ul>
                     </div>
             </nav>
             <main>
-                <section id="welcome" class="container-fluid">
-                    <div class="row align-items-center">
+                <section id="welcome" class="container-fluid d-flex">
+                    <div class="row align-items-center px-4">
                         <div class="col-12 col-md-8">
                             <img id="portrait" class="img-fluid rounded" src="colormod-GNG.jpg">
                         </div>
@@ -59,15 +60,16 @@
                         </div>
                     </div>
                 </section>
-                <section id="bio">
-                </section>
-                <section id="media-section">
-                    <div class="row">
-                        <!-- <div class="col-12 col-sm-6 col-lg-3"> -->
-                        <div class="col-auto">
-                            <div class="card text-center">
-                                <div class="card-body">
-                                    <iframe
+
+                <a id="listen-anchor" class="nav-anchor"></a>
+                <section id="listen">
+                    <h2>Listen</h2>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <div class="card text-center">
+                                    <div class="card-body">
+                                        <iframe
                                         style="max-width: 100%;"
                                         class="media"
                                         allow="autoplay" 
@@ -80,20 +82,59 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-12 col-md-4">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <iframe
+                                    style="max-width: 100%;"
+                                    class="media"
+                                    allow="autoplay" 
+                                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1274512444&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false">
+                                </iframe>
+                                <p class="card-text caption">
+                                    with Kai Lyons & Giulio Xavier<br>
+                                    San Francisco, 2020
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <iframe
+                                style="max-width: 100%;"
+                                class="media"
+                                allow="autoplay" 
+                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1274512444&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false">
+                            </iframe>
+                            <p class="card-text caption">
+                                with Kai Lyons & Giulio Xavier<br>
+                                San Francisco, 2020
+                            </p>
+                        </div>
                     </div>
                 </section>
+
+                <a id="bio-anchor" class="nav-anchor"></a>
                 <section id="bio">
+                    <h2>Bio</h2>
                     <p>Jake Shandling is a New York and Bay Area based musician. He aspires to make rhythmically compelling, texturally rich, honest music.</p>
                     <p>Jake has worked with artists including Slavic Soul Party!, Adam O'Farrill, Peter Stan, Sonny Climes, Joe Warner, Ben Goldberg, Kellye Gray, and Groundation Next Generation. He has studied with Eric McPherson, Eddie Marshall, George Marsh, William Winant, Allison Miller, and Jeff Ballard.</p>
                 </section>
-                <section id="performances">
+
+                <a id="live-anchor" class="nav-anchor"></a>
+                <section id="live">
+                    <h2>Live</h2>
                     <div class="performance">
                         <h3>8/4-7 – Oregon Tour with Jackie Gage</h3>
                     </div>
                 </section>
-                <section id="contact">
+
+                <a id="contact-anchor" class="nav-anchor"></a>
+                <!-- <section id="contact">
+                    <h2>Contact</h2>
                     <a href="mailto:shandlingsounds@icloud.com"><button type="button">Contact</button></a>
-                </section>
+                </section> -->
             </main>
             <footer>
                 © shandlingsounds 2022
