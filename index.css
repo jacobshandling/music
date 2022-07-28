@@ -1,3 +1,7 @@
+* {
+    max-width: 100%;
+}
+
 html {
     font-family: "Gill Sans", sans-serif;
 }
@@ -7,8 +11,9 @@ html {
 }
 
 #welcome {
-    min-height: 76vh;
-    padding-bottom: 6rem;
+    min-height: 78vh;
+    display: flex;
+    align-items: center;
 }
 
 section {
@@ -25,7 +30,7 @@ section {
 
 @media (min-width: 768px) {
     section {
-        min-height: 60vh;
+        min-height: 65vh;
     }
     .navbar-nav {
         gap: 2rem;
