@@ -7,12 +7,12 @@ html {
 }
 
 #welcome {
-    min-height: 95vh;
+    min-height: 76vh;
     padding-bottom: 6rem;
 }
 
 section {
-    min-height: 60vh;
+    min-height: 75vh;
     margin-bottom: 5rem;
 }
 
@@ -24,6 +24,9 @@ section {
 }
 
 @media (min-width: 768px) {
+    section {
+        min-height: 60vh;
+    }
     .navbar-nav {
         gap: 2rem;
     }
