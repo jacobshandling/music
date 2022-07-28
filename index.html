@@ -30,7 +30,7 @@
     <body id="page-top">
         <div class="container-xl text-center">
             <nav class="navbar navbar-expand-md bg-light sticky-top justify-content-between py-md-0 px-md-5">
-                    <a class="navbar-brand" href="#"><h1>Jake Shandling</h1></a>
+                    <a class="navbar-brand" href="#"><h1 class="display-3">Jake Shandling</h1></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -39,7 +39,7 @@
                             <li class="nav-item"><a class="nav-link active" href="#listen-anchor">Listen</a></li>
                             <li class="nav-item"><a class="nav-link active" href="#bio-anchor">Bio</a></li>
                             <li class="nav-item"><a class="nav-link active" href="#live-anchor">Live</a></li>
-                            <li class="nav-item"><a class="nav-link active" href="mailto:shandlingsounds@icloud.com">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#contact-anchor">Contact</a></li>
                             <!-- <li class="nav-item"><a class="nav-link active" href="#blog-anchor">Blog</a></li> -->
                         </ul>
                     </div>
@@ -51,11 +51,13 @@
                             <img id="portrait" class="img-fluid rounded" src="colormod-GNG.jpg">
                         </div>
                         <div class="col-12 col-md-4">
-                            <figure>
+                            <figure class="text-end">
                                 <blockquote>
-                                    <p class="fst-italic">"Drummer Jake Shandling was infectious"</p>
+                                    <p class="lead">"Drummer Jake Shandling was infectious"</p>
                                 </blockquote>
-                                <figcaption>New York City Jazz Record</figcaption>
+                                <figcaption class="blockquote-footer">
+                                    <cite title="Source Title">New York City Jazz Record</cite>
+                                </figcaption>
                             </figure>
                         </div>
                     </div>
@@ -82,36 +84,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4">
-                            <div class="card text-center">
-                                <div class="card-body">
-                                    <iframe
-                                    style="max-width: 100%;"
-                                    class="media"
-                                    allow="autoplay" 
-                                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1274512444&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false">
-                                </iframe>
-                                <p class="card-text caption">
-                                    with Kai Lyons & Giulio Xavier<br>
-                                    San Francisco, 2020
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <iframe
-                                style="max-width: 100%;"
-                                class="media"
-                                allow="autoplay" 
-                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1274512444&color=%23ff5500&auto_play=true&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false">
-                            </iframe>
-                            <p class="card-text caption">
-                                with Kai Lyons & Giulio Xavier<br>
-                                San Francisco, 2020
-                            </p>
-                        </div>
                     </div>
                 </section>
 
@@ -131,13 +103,15 @@
                 </section>
 
                 <a id="contact-anchor" class="nav-anchor"></a>
-                <!-- <section id="contact">
+                <section id="contact">
                     <h2>Contact</h2>
-                    <a href="mailto:shandlingsounds@icloud.com"><button type="button">Contact</button></a>
-                </section> -->
+                    <p>shandlingsounds@icloud.com</p>
+                </section>
+
             </main>
             <footer>
-                © shandlingsounds 2022
+                <p><small>© shandlingsounds 2022</small></p>
+                <!-- TODO: Add YouTube, SoundCloud, Bandcamp logolinks -->
             </footer>
         </div>
         <!-- JavaScript Bundle with Popper -->

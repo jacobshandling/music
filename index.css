@@ -8,6 +8,7 @@ html {
 
 #welcome {
     min-height: 95vh;
+    padding-bottom: 6rem;
 }
 
 section {
