@@ -11,14 +11,13 @@ html {
 }
 
 #welcome {
-    min-height: 76vh;
+    min-height: 93.5vh;
     display: flex;
     align-items: center;
 }
 
 section {
     min-height: 75vh;
-    margin-bottom: 5rem;
 }
 
 .nav-anchor {
@@ -30,7 +29,7 @@ section {
 
 @media (min-width: 768px) {
     #welcome {
-        min-height: 88vh;
+        min-height: 94.5vh;
     }
     section {
         min-height: 65vh;
