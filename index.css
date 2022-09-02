@@ -55,6 +55,14 @@ section {
     padding: 0;
 }
 
+#contact {
+    align-items: center;
+}
+
+#mc_embed_signup {
+    max-width: 50%;
+}
+
 @media (min-width: 768px) {
     .display-1 {
         font-size: 4rem;
@@ -84,5 +92,9 @@ section {
     }
     .nav-anchor {
         top: -33vh;
+    }
+    
+    #mc_embed_signup {
+        max-width: 20%;
     }
 }
