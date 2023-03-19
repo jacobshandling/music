@@ -89,17 +89,20 @@ section {
 
 @media (min-width: 768px) {
     .display-1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
-    .lead {
+    .display-2 {
         font-size: 2rem;
     }
+    .lead {
+        font-size: 1.4rem;
+    }
     cite {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
     }
 
     p {
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
 
     
