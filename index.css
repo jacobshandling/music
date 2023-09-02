@@ -66,6 +66,9 @@ section {
     align-items: center;
 }
 
+/* 3rd party overrides */
+
+/* mailchimp embed */
 #mc_embed_signup{
     width: 100%;
 }
@@ -93,10 +96,11 @@ section {
     height: 10px !important;
 }
 
-.card {
-    /* justify-content: center;
-    max-width: 80%; */
+/* bandsintown embed */
+.bit-venue {
+    width: fit-content !important
 }
+
 
 @media (min-width: 768px) {
     .display-1 {
