@@ -101,6 +101,17 @@ section {
     width: fit-content !important
 }
 
+/* remove annoying link behavior */
+a.bit-venue:hover, a.bit-event:hover, a.bit-details:hover {
+    cursor: default;
+    background-color: initial;
+}
+
+/* after removing "I Was There"s, take up missing space to the right */
+.bit-past-events .bit-location {
+    text-align: right !important;
+}
+
 @media (min-width: 768px) {
     .display-1 {
         font-size: 3rem;
