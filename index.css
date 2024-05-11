@@ -6,6 +6,13 @@ body {
     font-family: "Gill Sans", sans-serif;
 }
 
+#maintenance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+}
 #welcome {
     min-height: 93.5vh;
     justify-content: center;

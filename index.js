@@ -72,8 +72,8 @@ const setBitLoadedInterval = getSetCheckIsLoadedInterval(
 
 setBitLoadedInterval();
 
-document.addEventListener('DOMContentLoaded', () => {
-    setCopyright();
-});
+// document.addEventListener('DOMContentLoaded', () => {
+//     setCopyright();
+// });
 
 
