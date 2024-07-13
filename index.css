@@ -157,9 +157,6 @@ a.bit-venue:hover, a.bit-event:hover, a.bit-details:hover {
         gap: 1rem;
         min-height: 88.5vh;
     }
-    img {
-        max-width: 80%;
-    }
     .navbar-nav {
         gap: 2rem;
     }
