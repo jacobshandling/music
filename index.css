@@ -61,6 +61,12 @@ ul {
     padding-bottom: 10rem;
 }
 
+#bio {
+    .portrait {
+        max-height: 33vh;
+    }
+}
+
 section {
     display: flex;
     flex-direction: column;
