@@ -60,15 +60,15 @@ ul {
     padding-bottom: 10rem;
 }
 
-#bio {
-    .portrait {
-        max-height: 33vh;
-    }
+#live {
+    /* proper BIT event list */
+    align-items: initial;
 }
 
 section {
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-height: 75vh;
     padding-bottom: 3rem;
 }
@@ -78,9 +78,14 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: max-content;
+    img {
+        max-height: 500px;
+    }
     cite {
+        font-style: normal;
         align-self: flex-end;
-        font-size: 1rem;
+        font-size: .75rem;
     }
 }
 
@@ -184,7 +189,6 @@ a.bit-venue:hover, a.bit-event:hover, a.bit-details:hover {
     }
 }
 
-    
 /* match default break for BS menu collapse */
 /* TODO - migrate off BS completely */
 @media (min-width: 576px) {
@@ -210,10 +214,6 @@ a.bit-venue:hover, a.bit-event:hover, a.bit-details:hover {
     .lead {
         font-size: 1.4rem;
     }
-    cite {
-        font-size: 1.2rem;
-    }
-
     p {
         font-size: 1.3rem;
     }
