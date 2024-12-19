@@ -5,3 +5,5 @@ env
 markup-from-weebly-site/
 
 *vscode/settings.json
+
+.vscode*
