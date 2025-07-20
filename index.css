@@ -237,3 +237,12 @@ a.bit-venue:hover, a.bit-event:hover, a.bit-details:hover {
         width: 50%;
     }
 }
+
+#double-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card {
+    height: 100%;
+}
