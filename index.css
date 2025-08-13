@@ -189,6 +189,12 @@ a.bit-venue:hover, a.bit-event:hover, a.bit-details:hover {
     }
 }
 
+@media (min-width: 992px) {
+    .bit-description {
+        text-align: initial;
+    }
+}
+
 /* match default break for BS menu collapse */
 /* TODO - migrate off BS completely */
 @media (min-width: 576px) {
