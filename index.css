@@ -48,6 +48,7 @@ ul {
 .social-links {
     display: flex;
     align-items: center;
+    gap: 16px;
 }
 #welcome {
     min-height: 93.5vh;
